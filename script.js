@@ -435,11 +435,14 @@ async function sendAttendanceReportToTelegram(finalData) {
       return `${index + 1}. ${s.name} ${reasonDisplay}`;
     })
     .join("\n");
-
+const GROUP_NAME = "25-101";
   let messageText = `
 <b>📘 Davomat yakunlandi</b>
+<b>🏫 Guruh:</b> ${GROUP_NAME}
 <b>📚 Fan:</b> ${subject}
 <b>📅 Sana:</b> ${date} (${uzDayName})
+
+
 
 <b>✅ Darsda bo'lganlar (${present.length}):</b>
 ${presentList}
