@@ -39,7 +39,7 @@ const SCHEDULE = {
 const INITIAL_STUDENTS = [
   { id: 1, name: "TO‘YCHIBOYEV FAYOZBEK", status: "Nomalum", reason: "" },
   { id: 2, name: "ABDIRAZZOQOV DOSTONJON", status: "Nomalum", reason: "" },
-  { id: 3, name: "TURGANBAYEV ALISHER", status: "Nomalum", reason: "" },
+  { id: 3, name: "OMONBOYEV SHAXZOD", status: "Nomalum", reason: "" },
   { id: 4, name: "KARIMJONOV OYBEK", status: "Nomalum", reason: "" },
   { id: 5, name: "LUTFIDDINOV SAIDAKBAR", status: "Nomalum", reason: "" },
   { id: 6, name: "AXROLOV YOQUBJON", status: "Nomalum", reason: "" },
@@ -65,8 +65,7 @@ const INITIAL_STUDENTS = [
   { id: 26, name: "MUXTOROV ABUBAKR", status: "Nomalum", reason: "" },
   { id: 27, name: "SUXBATULLAYEV MUHAMMAD NUR", status: "Nomalum", reason: "" },
   { id: 28, name: "MO‘SINOV MUHAMMADYOR", status: "Nomalum", reason: "" },
-  { id: 29, name: "BOQIJONOV SAN’ATBEK", status: "Nomalum", reason: "" },
-  { id: 30, name: "OMONBOYEV SHAXZOD", status: "Nomalum", reason: "" }
+  { id: 29, name: "BOQIJONOV SAN’ATBEK", status: "Nomalum", reason: "" }
 ];
 
 let students = JSON.parse(JSON.stringify(INITIAL_STUDENTS));
